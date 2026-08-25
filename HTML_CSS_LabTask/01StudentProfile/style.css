@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f4f8;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #173b6c;
+    color: white;
+    padding: 15px 8%;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.nav-links a:hover {
+    background: white;
+    color: #173b6c;
+    border-radius: 5px;
+}
+
+.container {
+    width: 85%;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.profile-card {
+    position: relative;
+    background: white;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: green;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.profile-header img {
+    width: 140px;
+    border-radius: 50%;
+}
+
+button {
+    background: #173b6c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #285fa5;
+}
+
+section {
+    margin-top: 30px;
+}
+
+.academic-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.academic-grid div {
+    background: #eef3fa;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.skills {
+    display: flex;
+    gap: 10px;
+}
+
+.skills span {
+    background: #173b6c;
+    color: white;
+    padding: 7px 12px;
+    border-radius: 15px;
+}
