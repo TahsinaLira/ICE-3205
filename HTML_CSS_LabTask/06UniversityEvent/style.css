@@ -1,0 +1,144 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f4f4f4;
+}
+
+header {
+    background: #18244d;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background: #283968;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+section {
+    width: 85%;
+    margin: 40px auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.countdown {
+    text-align: center;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.time div {
+    background: #18244d;
+    color: white;
+    padding: 15px 25px;
+}
+
+.about {
+    position: relative;
+    background: white;
+    padding: 20px;
+    overflow: auto;
+}
+
+.about img {
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: orange;
+    color: white;
+    padding: 5px;
+}
+
+.schedule-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.schedule-grid div {
+    background: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.speaker-container {
+    display: flex;
+    gap: 20px;
+}
+
+.speaker {
+    flex: 1;
+    background: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.speaker img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.register {
+    text-align: center;
+}
+
+.register input {
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #18244d;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background: orange;
+}
+
+.fixed-button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: orange;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+}
+
+#contact {
+    text-align: center;
+}
+
