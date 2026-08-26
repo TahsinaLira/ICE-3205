@@ -1,4 +1,4 @@
-/* ================= GENERAL ================= */
+
 
 * {
     box-sizing: border-box;
@@ -15,8 +15,6 @@ body {
     color: #333;
 }
 
-
-/* ================= SIDEBAR ================= */
 
 .sidebar {
     position: fixed;
@@ -59,7 +57,6 @@ body {
 }
 
 
-/* Sidebar hover */
 
 .sidebar a:hover {
     background-color: #2f5d8c;
@@ -67,8 +64,6 @@ body {
     padding-left: 22px;
 }
 
-
-/* Notification Badge */
 
 .notification {
     position: absolute;
@@ -89,14 +84,11 @@ body {
 }
 
 
-/* ================= MAIN CONTENT ================= */
 
 .main-content {
     margin-left: 220px;
 }
 
-
-/* ================= TOP NAV ================= */
 
 .top-nav {
     display: flex;
@@ -128,8 +120,6 @@ body {
 }
 
 
-/* Notification icon */
-
 .notification-icon {
     position: relative;
 
@@ -137,7 +127,6 @@ body {
 }
 
 
-/* Top notification badge */
 
 .top-badge {
     position: absolute;
@@ -165,14 +154,11 @@ body {
 }
 
 
-/* ================= MAIN ================= */
 
 main {
     padding: 25px;
 }
 
-
-/* ================= PROFILE ================= */
 
 .profile {
     display: flex;
@@ -203,8 +189,6 @@ main {
     object-fit: cover;
 }
 
-
-/* ================= DASHBOARD GRID ================= */
 
 .dashboard-grid {
     display: grid;
@@ -248,7 +232,6 @@ main {
 }
 
 
-/* Working Card Buttons */
 
 .card-button {
     display: inline-block;
@@ -274,8 +257,6 @@ main {
 }
 
 
-/* ================= CONTENT SECTIONS ================= */
-
 .content-box {
     background-color: white;
 
@@ -287,7 +268,7 @@ main {
 
     border-radius: 10px;
 
-    /* Prevent sticky navbar covering section */
+
     scroll-margin-top: 90px;
 }
 
@@ -299,9 +280,6 @@ main {
 
     padding-bottom: 10px;
 }
-
-
-/* ================= COURSES ================= */
 
 .course-table {
     margin-top: 15px;
@@ -326,7 +304,6 @@ main {
 }
 
 
-/* ================= GPA ================= */
 
 .gpa-info {
     display: grid;
@@ -347,8 +324,6 @@ main {
     border-radius: 8px;
 }
 
-
-/* ================= ATTENDANCE ================= */
 
 .attendance-item {
     margin-bottom: 18px;
@@ -394,7 +369,7 @@ main {
 }
 
 
-/* ================= RESULTS ================= */
+
 
 .result {
     display: grid;
@@ -415,8 +390,6 @@ main {
     margin: 3px 0;
 }
 
-
-/* Passed course */
 
 .passed {
     background-color: #d4edda;
@@ -439,7 +412,6 @@ main {
 }
 
 
-/* ================= NOTICES ================= */
 
 .notice-card {
     background-color: #f6f8fb;
@@ -459,7 +431,6 @@ main {
 }
 
 
-/* ================= FOOTER ================= */
 
 footer {
     background-color: #183153;
@@ -471,8 +442,6 @@ footer {
     padding: 20px;
 }
 
-
-/* ================= RESPONSIVE ================= */
 
 @media (max-width: 900px) {
 

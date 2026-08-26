@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f4f4f4;
+}
+
+header {
+    background: #17415f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background: #102d42;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+section {
+    width: 90%;
+    margin: 40px auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.faculty-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    position: relative;
+    background: white;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: orange;
+    color: white;
+    padding: 5px;
+    font-size: 11px;
+}
+
+button {
+    background: #17415f;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+}
+
+button:hover {
+    background: #28709b;
+}
+
+.research-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.research-grid div {
+    background: #dceaf2;
+    padding: 20px;
+    text-align: center;
+}
+
