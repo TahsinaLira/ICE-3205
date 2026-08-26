@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f4f4f4;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: #29386b;
+    color: white;
+    padding: 15px 8%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+.hero {
+    text-align: center;
+    background: #5368ad;
+    color: white;
+    padding: 50px;
+}
+
+.hero input {
+    width: 50%;
+    padding: 10px;
+}
+
+section {
+    width: 90%;
+    margin: 40px auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card {
+    position: relative;
+    background: white;
+    padding: 15px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.card a {
+    display: block;
+    background: #29386b;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px;
+}
+
+.card a:hover {
+    background: #4c63ad;
+}
+
+.popular {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: orange;
+    color: white;
+    padding: 5px;
+}
+
+.about {
+    background: white;
+    padding: 20px;
+    overflow: auto;
+}
+
+.about img {
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+}
+
+.enroll {
+    text-align: center;
+    background: #ddd;
+    padding: 20px;
+}
+
+@media (max-width: 800px) {
+    .course-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
