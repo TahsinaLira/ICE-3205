@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  
+
+    <aside class="sidebar">
+
+        <h2>University Portal</h2>
+
+        <a href="#dashboard">Dashboard</a>
+
+        <a href="#profile">Profile</a>
+
+        <a href="#courses">Courses</a>
+
+        <a href="#results">Results</a>
+
+        <a href="#notices" class="notice-link">
+            Notices
+            <span class="notification">3</span>
+        </a>
+
+    </aside>
+
+
+    <div class="main-content" id="dashboard">
+
+
+   
+
+        <nav class="top-nav">
+
+            <h2>Student Dashboard</h2>
+
+            <div class="top-right">
+
+                <div class="notification-icon">
+                    🔔
+                    <span class="top-badge">3</span>
+                </div>
+
+                <span>Welcome, Lira</span>
+
+            </div>
+
+        </nav>
+
+
+        
+
+        <main>
+
+            <section class="profile" id="profile">
+
+                
+                <div>
+
+                    <h2>Tahsina Hossain Lira</h2>
+
+                    <p>Student ID: 24549010087</p>
+
+                    <p>Department of ICT</p>
+
+                    <p>6th Semester</p>
+
+                </div>
+
+            </section>
+
+
+           
+
+            <section class="dashboard-grid">
+
+                <div class="card">
+
+                    <h3>Current Courses</h3>
+
+                    <p class="number">5</p>
+
+                    <a href="#courses" class="card-button">
+                        View Courses
+                    </a>
+
+                </div>
+
+
+                <div class="card">
+
+                    <h3>GPA</h3>
+
+                    <p class="number">3.65</p>
+
+                    <a href="#results" class="card-button">
+                        View Results
+                    </a>
+
+                </div>
+
+
+                <div class="card">
+
+                    <h3>Attendance</h3>
+
+                    <p class="number">92%</p>
+
+                    <a href="#attendance" class="card-button">
+                        View Attendance
+                    </a>
+
+                </div>
+
+            </section>
+
+
+           
+
+            <section class="content-box" id="courses">
+
+                <h2>Current Courses</h2>
+
+                <div class="course-table">
+
+                    <div class="course-row">
+
+                        <span>Web Technology</span>
+
+                        <span>ICE 3205</span>
+
+                        <span>3 Credits</span>
+
+                    </div>
+
+
+                    <div class="course-row">
+
+                        <span>Software Requirement and Engineering</span>
+
+                        <span>ICE 3207</span>
+
+                        <span>3 Credits</span>
+
+                    </div>
+
+
+                    <div class="course-row">
+
+                        <span>Microprocessor and Computer Engineering</span>
+
+                        <span>ICE 3201</span>
+
+                        <span>3 Credits</span>
+
+                    </div>
+
+
+                    <div class="course-row">
+
+                        <span>Microwave Engineering and Antenna</span>
+
+                        <span>ICE 3203</span>
+
+                        <span>3 Credits</span>
+
+                    </div>
+
+
+                    <div class="course-row">
+
+                        <span>Statistics and Research Methodology</span>
+
+                        <span>ICE 3209</span>
+
+                        <span>1.5 Credits</span>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            
+
+            <section class="content-box" id="gpa">
+
+                <h2>GPA Information</h2>
+
+                <div class="gpa-info">
+
+                    <div>
+
+                        <h3>Current GPA</h3>
+
+                        <p>3.65 / 4.00</p>
+
+                    </div>
+
+
+                    <div>
+
+                        <h3>Total Credits</h3>
+
+                        <p>90</p>
+
+                    </div>
+
+
+                    <div>
+
+                        <h3>Completed Credits</h3>
+
+                        <p>75</p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            
+
+            <section class="content-box" id="attendance">
+
+                <h2>Attendance</h2>
+
+
+                <div class="attendance-item">
+
+                    <p>Web Technology</p>
+
+                    <div class="progress">
+
+                        <div class="progress-bar attendance-95">
+                            95%
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="attendance-item">
+
+                    <p>Software and Requirement Engineering</p>
+
+                    <div class="progress">
+
+                        <div class="progress-bar attendance-90">
+                            90%
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="attendance-item">
+
+                    <p>Microprocessor and Computer Architecture</p>
+
+                    <div class="progress">
+
+                        <div class="progress-bar attendance-88">
+                            88%
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+           
+            <section class="content-box" id="results">
+
+                <h2>Examination Results</h2>
+
+
+                <div class="result passed">
+
+                    <div>
+
+                        <strong>Web Technology</strong>
+
+                        <p>ICE 3205</p>
+
+                    </div>
+
+                    <span>A</span>
+
+                    <span class="status">
+                        Passed
+                    </span>
+
+                </div>
+
+
+                <div class="result passed">
+
+                    <div>
+
+                        <strong>Software and Requirement Engineering</strong>
+
+                        <p>ICE 3207</p>
+
+                    </div>
+
+                    <span>B+</span>
+
+                    <span class="status">
+                        Passed
+                    </span>
+
+                </div>
+
+
+                <div class="result passed">
+
+                    <div>
+
+                        <strong>Microprocessor and Computer Architecture</strong>
+
+                        <p>ICE 3201</p>
+
+                    </div>
+
+                    <span>A-</span>
+
+                    <span class="status">
+                        Passed
+                    </span>
+
+                </div>
+
+
+                <div class="result failed">
+
+                    <div>
+
+                        <strong>Mathematics</strong>
+
+                        <p>MATH 2205</p>
+
+                    </div>
+
+                    <span>C</span>
+
+                    <span class="status">
+                        Passed
+                    </span>
+
+                </div>
+
+            </section>
+
+
+            
+
+            <section class="content-box" id="notices">
+
+                <h2>University Notices</h2>
+
+
+                <div class="notice-card">
+
+                    <h3>Midterm Examination</h3>
+
+                    <p>
+                        Midterm examinations will start 13 September.
+                    </p>
+
+                </div>
+
+
+                <div class="notice-card">
+
+                    <h3>Course Registration</h3>
+
+                    <p>
+                        Course registration closes on Monday.                    </p>
+
+                </div>
+
+
+                <div class="notice-card">
+
+                    <h3>University Holiday</h3>
+
+                    <p>
+                        The university will remain closed next Thursday.
+                    </p>
+
+                </div>
+
+            </section>
+
+        </main>
+
+
+    </div>
+
+</body>
+
+</html>
